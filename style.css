@@ -115,3 +115,38 @@ form label, form legend {
 .checkbox {
 	margin: 20px 0;
 }
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background-color: orange;
+	color:white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;/*faz uma transição no botão inteiro*/
+	cursor: pointer; /*o cursor muda para a maozinha*/
+}
+
+.enviar:hover{
+	background-color: darkorange; 
+	transform: scale(1.2); /*aumenta quando passa o mouse*/
+}
+
+table{
+	margin: 20px 0 40px;
+}
+
+
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th{
+	border:1px solid #000000;
+	padding: 15px 8px;
+}
+
